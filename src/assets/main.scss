@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body {
+  background: #030303;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.wrapper {
+  margin: 2rem 0;
+}
+
+.loading {
+  position: fixed;
+  background: #030303 url('./img/loading.gif') no-repeat center center;
+  background-size: 20rem;
+  z-index: 999009;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+}
